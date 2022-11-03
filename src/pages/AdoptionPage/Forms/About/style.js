@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import InputMask from "react-input-mask";
 
 export const Fieldset = styled.fieldset`
   width: 70%;
@@ -30,6 +31,16 @@ export const Span = styled.span`
   font-family: "Inter Tight", sans-serif;
 `;
 export const Input = styled.input`
+  font-family: "Inter Tight", sans-serif;
+  width: 15vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: 1px solid;
+  padding-left: 10px;
+  font-size: 1rem;
+  margin-bottom: 3px;
+`;
+export const InputValue = styled(InputMask)`
   font-family: "Inter Tight", sans-serif;
   width: 15vw;
   height: 4vh;

@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
-import Cat from "../assets_home/kitana.png";
-import Dog from "../assets_home/apolo.png";
+import Cat from "../../../assets/kitana.png";
+import Dog from "../../../assets/apolo.png";
 import { Link } from "react-router-dom";
 
 export default function MainHome() {

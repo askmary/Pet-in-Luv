@@ -23,3 +23,21 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
 `;
+export const Btn = styled.input`
+  width: 17vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid;
+  background:transparent;
+  margin:40px;
+  font-size:1.3rem;
+  cursor:pointer;
+  color:white;
+  transition:1s all;
+  &:hover{
+    background:white;
+    color:black;
+    border:none;
+    transform:scale(1.1);
+  }
+`;

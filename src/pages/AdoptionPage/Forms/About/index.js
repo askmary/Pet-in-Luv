@@ -24,15 +24,20 @@ export default function About() {
           <S.Label>
             CPF: <S.Span>*</S.Span>
           </S.Label>
-          <S.Input type="text" placeholder="XXX.XXX.XXX-XX" required />
+          <S.InputValue
+            type="text"
+            placeholder="XXX.XXX.XXX-XX"
+            required
+            mask="999.999.999-99"
+          />
           <S.Label>
             RG: <S.Span>*</S.Span>
           </S.Label>
-          <S.Input type="text" placeholder="00.000.000-0" required />
+          <S.InputValue type="text" placeholder="00.000.000-0" required mask="99.999.999-9"/>
           <S.Label>
             Celular: <S.Span>*</S.Span>
           </S.Label>
-          <S.Input type="tel" placeholder="(00) 00000-0000" required />
+          <S.InputValue type="tel" placeholder="(00) 00000-0000" required mask="(99) 99999-9999"/>
         </div>
       </S.Fieldset>
     </>

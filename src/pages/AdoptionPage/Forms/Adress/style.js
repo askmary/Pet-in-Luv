@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import InputMask from "react-input-mask"
 
 export const Fieldset = styled.fieldset`
   width: 70%;
@@ -14,6 +15,9 @@ export const Fieldset = styled.fieldset`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+  button{
+    display:none;
   }
 `;
 export const Legend = styled.legend`
@@ -39,3 +43,14 @@ export const Input = styled.input`
   font-size: 1rem;
   margin-bottom: 3px;
 `;
+export const InputValue = styled(InputMask)`
+  font-family: "Inter Tight", sans-serif;
+  width: 15vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: 1px solid;
+  padding-left: 10px;
+  font-size: 1rem;
+  margin-bottom: 3px;
+`;
+
